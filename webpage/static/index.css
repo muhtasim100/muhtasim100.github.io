@@ -1,7 +1,10 @@
 
+/* Free to use font face by Natanael Gama downloaded from https://fonts.google.com/specimen/Cinzel */
 @font-face {
     font-family: 'Cinzel-Regular';
-    src: url('../fonts/static/Cinzel-Regular.ttf') format('truetype');  
+    src: url('../static/fonts/Cinzel-BlackCinzel-BoldCinzel-ExtraBold/Cinzel-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 body {
@@ -10,7 +13,7 @@ body {
 
 .banner-container {
     width: 100vw;
-    height: 10%;
+    height: 15%;
     background: #D9D9D9;
     display: flex;
     justify-content: center;
@@ -19,7 +22,7 @@ body {
     left: 0;
     position: absolute;
     cursor: pointer;
-    font-size: x-large;
+    font-size: xxx-large;
     font-family: 'Cinzel-Regular';
 }
   
@@ -27,3 +30,21 @@ body {
     transform: scale(0.78);
 }
   
+.banner-container h1{
+    margin-top: 1%;
+}
+
+.message-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    cursor: pointer;
+    font-size: xx-large;
+    font-family: 'Cinzel-Regular';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #D9D9D9;
+    text-align: center;
+}
