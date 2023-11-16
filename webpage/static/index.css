@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'Cinzel-Regular';
+    src: url('../fonts/static/Cinzel-Regular.ttf') format('truetype');  
+}
+
+body {
+    background-color: #000639;
+}
+
+.banner-container {
+    width: 100vw;
+    height: 10%;
+    background: #D9D9D9;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    top: 0;
+    left: 0;
+    position: absolute;
+    cursor: pointer;
+    font-size: x-large;
+    font-family: 'Cinzel-Regular';
+}
+  
+.banner-container img{
+    transform: scale(0.78);
+}
+  
