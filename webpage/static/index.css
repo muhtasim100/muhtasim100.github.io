@@ -9,6 +9,8 @@
 
 body {
     background-color: #000639;
+    margin: 0;
+    height: 200vh;
 }
 
 .banner-container {
@@ -17,12 +19,11 @@ body {
     background: #D9D9D9;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     top: 0;
     left: 0;
     position: absolute;
     cursor: pointer;
-    font-size: xxx-large;
+    font-size: xx-large;
     font-family: 'Cinzel-Regular';
 }
   
@@ -31,20 +32,49 @@ body {
 }
   
 .banner-container h1{
-    margin-top: 1%;
+    margin-top: 2%;
 }
 
-.message-container{
+.message-container h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    cursor: pointer;
-    font-size: xx-large;
+    position: absolute;
+    cursor: default;
+    font-size: xxx-large;
     font-family: 'Cinzel-Regular';
-    top: 50%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #D9D9D9;
     text-align: center;
+}
+
+.scroll-container h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: default;
+    font-size: x-large;
+    font-family: 'Cinzel-Regular';
+    top: 66%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #D9D9D9;
+    text-align: center;
+}
+
+.scroll-container img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: pointer;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #D9D9D9;
+    height: auto;
+    width: 30px;
 }
