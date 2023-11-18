@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/index.css">
-    <title>Monochrome Webpage</title>
+    <title>Wandering Traveller Blog</title>
 </head>
 <body>
 
@@ -24,6 +24,36 @@
         <h3>scroll down to view</h3>
         <img src="{{ url_for('static', filename='images/white-scroll.svg') }}" alt="scroll">
         <!-- Free img by Roman Gerz from https://thenounproject.com/icon/scroll-down-1076474/ -->
+    </div>
+
+
+    <div class="harrods-container">
+        <h4>Harrods</h4>
+        <div class="harrods-img">
+            <img src="{{ url_for('static', filename='images/harrods.svg') }}" alt="harrods">
+            <!-- img from https://www.harrods.com/en-gb/plan-your-visit 
+            downloaded via Google images link https://images.app.goo.gl/U2vQgSY6UVPmqEQMA-->
+        </div>
+        <h5>87-135 Brompton Rd, London SW1X 7XL</h5>
+    </div>
+
+    <div class="museum-container">
+        <h4>Victoria and Albert Museum</h4>
+        <div class="museum-img">
+            <img src="{{ url_for('static', filename='images/VA.svg') }}" alt="museum">
+            <!-- img from https://www.bb-belgravia.com/victoria-and-albert-museum/ -->
+        </div>
+        <h5>Cromwell Rd, London SW7 2RL</h5>
+    </div>
+
+    <div class="ivy-container">
+        <h4>Ivy Asia, Chelsea</h4>
+        <div class="ivy-img">
+            <img src="{{ url_for('static', filename='images/Ivy-Asia.svg') }}" alt="restuarant">
+            <!-- img from https://www.kingsroad.co.uk/spotlight/new-opening-the-ivy-asia-chelsea/
+            downloaded via Google images link https://images.app.goo.gl/VdtXkidapmRwNDru9-->
+        </div> 
+        <h5>201-203A, King's Rd, London SW3 5ED</h5>
     </div>
 
 </body>

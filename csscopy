@@ -9,7 +9,7 @@
 
 body {
     background-color: #000639;
-    height: 200vh;
+    height: 225vh;
 }
 
 .banner-container {
@@ -32,7 +32,6 @@ body {
   
 .banner-container h1{
     margin-top: 2%;
-    color: #000639;
 }
 
 .message-container h2{
@@ -52,7 +51,6 @@ body {
 /* Specifically chose to use px instead of % for font size here to
 get exactly the size I wanted. xxx-large and xx-large made the screen
 look too empty. */
-
 
 .scroll-container h3{
     position: absolute;
@@ -87,18 +85,16 @@ look too empty. */
     align-items: center;
     position: absolute;
     cursor: default;
-    top: 140vh;
+    top: 130vh;
     left: 20%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel-Regular', fallback, monospace ;
-    font-size: x-large;
-
 }
 
 .harrods-container h4 {
     position: absolute;
     cursor: default;
-    top: -15%;
+    top: -10%;
     left: 50%;
     color: #D9D9D9;
     transform: translate(-50%, -50%);
@@ -121,17 +117,16 @@ look too empty. */
     align-items: center;
     position: absolute;
     cursor: default;
-    top: 150vh;
-    left: 50%;
+    top: 165vh;
+    left: 80%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel-Regular', fallback, monospace ;
-    font-size: x-large;
 }
 
 .museum-container h4 {
     position: absolute;
     cursor: default;
-    top: -15%;
+    top: -10%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel-Regular', fallback, monospace;
@@ -160,23 +155,20 @@ look too empty. */
     align-items: center;
     position: absolute;
     cursor: default;
-    top: 160vh;
-    left: 80%;
+    top: 200vh;
+    left: 20%;
     transform: translate(-50%, -50%);
-    font-family: 'Cinzel-Regular', fallback, monospace;
-    font-size: x-large;
+    font-family: 'Cinzel-Regular', fallback, monospace ;
 }  
 
 
 .ivy-container h4 {
     position: absolute;
-    top: -15%; 
+    top: -10%; 
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel-Regular', fallback, monospace ;
     color: #D9D9D9;
-    height: auto;
-    width: max-content;
 }  
 
 .ivy-container h5 {
