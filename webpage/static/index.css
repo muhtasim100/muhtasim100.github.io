@@ -12,6 +12,7 @@ body {
     height: 200vh;
 }
 
+/* MAIN SECTION */
 .banner-container {
     width: 100vw;
     height: 15%;
@@ -23,7 +24,8 @@ body {
     position: absolute;
     cursor: pointer;
     font-size: xx-large;
-    font-family: 'Cinzel-Regular', fallback, monospace ;
+    font-family: 'Cinzel-Regular', fallback, monospace;
+    /* Fallback font included for error prevention in case first font fails. */
 }
   
 .banner-container img{
@@ -80,6 +82,20 @@ look too empty. */
     width: 30px;
 }
 
+/* GALLERY SECTION */
+.gallery-title h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    cursor: default;
+    top: 103vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Cinzel-Regular', fallback, monospace ;
+    font-size: 60px;
+    color: #D9D9D9;
+}
 
 .harrods-container {
     display: flex;
