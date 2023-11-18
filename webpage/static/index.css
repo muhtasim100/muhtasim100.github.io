@@ -59,9 +59,9 @@ look too empty. */
 .scroll-container h3{
     position: absolute;
     cursor: default;
-    font-size: x-large;
+    font-size: large;
     font-family: 'Cinzel-Regular', fallback, monospace ;
-    top: 84%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #D9D9D9;
