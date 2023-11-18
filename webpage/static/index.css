@@ -89,7 +89,7 @@ look too empty. */
     align-items: center;
     position: absolute;
     cursor: default;
-    top: 103vh;
+    top: 105vh;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel-Regular', fallback, monospace ;
@@ -103,7 +103,7 @@ look too empty. */
     align-items: center;
     position: absolute;
     cursor: default;
-    top: 140vh;
+    top: 145vh;
     left: 20%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel-Regular', fallback, monospace ;
@@ -137,7 +137,7 @@ look too empty. */
     align-items: center;
     position: absolute;
     cursor: default;
-    top: 150vh;
+    top: 155vh;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel-Regular', fallback, monospace ;
@@ -176,7 +176,7 @@ look too empty. */
     align-items: center;
     position: absolute;
     cursor: default;
-    top: 160vh;
+    top: 165vh;
     left: 80%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel-Regular', fallback, monospace;
