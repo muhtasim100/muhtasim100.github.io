@@ -8,28 +8,36 @@
     <link rel="stylesheet" href="static/css/index.css">
     <title>Monochrome Webpage</title>
 </head>
+
 <body>
+
     <div class="navbar">
         <ul class="tabs">
-            <li><a href="">About Us</a></li>
-            <li><a href="">Coding</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">CODING</a></li>
             <li><img src="{{ url_for('static', filename='images/LEARNR.svg') }}" alt="title"></li>
-            <li><a href="">Maths</a></li>
-            <li><a href="">Enquire</a></li>
+            <li><a href="">MATHS</a></li>
+            <li><a href="">ENQUIRE</a></li>
         </ul>
     </div>
 
-    <div class="about-container">
-        <h1>
-            LEARNR, established in 2023, seamlessly integrates computer science and math education. 
-            Our expert-led courses cover programming languages and advanced mathematics, 
-            fostering a dynamic learning journey. Tailored paths address individual strengths and career goals, 
-            while subscribers access premium benefits, including exclusive content. 
-            LEARNR nurtures a vibrant community for collaborative learning and exploration. 
-            Join us to unlock limitless possibilities where programming and mathematics converge, 
-            empowering your potential and influencing the future of education.
-        </h1> 
-        <!-- h1 text generated from chatgpt. -->
+    <div class="about-content">
+        <div class="about-container">
+            <h1>
+                LEARNR, established in 2023, seamlessly integrates computer science and math education. 
+                Our expert-led courses cover programming languages and advanced mathematics, 
+                fostering a dynamic learning journey. Tailored paths address individual strengths and career goals, 
+                while subscribers access premium benefits, including exclusive content. 
+                LEARNR nurtures a vibrant community for collaborative learning and exploration. 
+                Join us to unlock limitless possibilities where programming and mathematics converge, 
+                empowering your potential and influencing the future of education.
+            </h1> 
+            <!-- h1 text generated from chatgpt. -->
+        </div>
+        
+        <div class="stdnt-container">
+            <img src="{{ url_for('static', filename='images/student.svg') }}" alt="student">
+        </div>
     </div>
     
 </body>
