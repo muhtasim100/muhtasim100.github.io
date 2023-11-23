@@ -16,4 +16,4 @@ def math():
 
 @views.route("/enquiry")
 def enq():
-    return render_template("enquiry.html")
+    return render_template("enquire.html")
