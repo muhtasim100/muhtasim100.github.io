@@ -34,26 +34,27 @@
             </h1> 
             <!-- h1 text generated from chatgpt. -->
         </div>
-        
-        <div class="code-img">
-            <img src="{{ url_for('static', filename='images/code.svg') }}" alt="code">
-        </div>
-<!-- img credit to https://medium.com/swlh/10-clean-coding-practices-e37ac283184d -->
+        <div class="contents">
+            <div class="code-img">
+                <img src="{{ url_for('static', filename='images/code.svg') }}" alt="code">
+            </div>
+    <!-- img credit to https://medium.com/swlh/10-clean-coding-practices-e37ac283184d -->
 
-        <div class="img-container">
-            <div class="row">
-                <img src="{{ url_for('static', filename='images/py.svg') }}" alt="py">
-                <img src="{{ url_for('static', filename='images/java.svg') }}" alt="java">
+            <div class="img-container">
+                <div class="row">
+                    <img src="{{ url_for('static', filename='images/py.svg') }}" alt="py">
+                    <img src="{{ url_for('static', filename='images/java.svg') }}" alt="java">
+                </div>
+    <!-- img credit to https://www.python.org/community/logos/ -->
+    <!-- img credit to https://www.vectorlogo.zone/logos/java/index.html -->
+                <div class="row">
+                    <img src="{{ url_for('static', filename='images/c.svg') }}" alt="c">
+                    <img src="{{ url_for('static', filename='images/htmlcss.svg') }}" alt="htmlcss">
+                </div>
+    <!-- img credit to https://commons.wikimedia.org/wiki/File:C_Programming_Language.svg -->
+    <!-- img credit to https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg -->
             </div>
-<!-- img credit to https://www.python.org/community/logos/ -->
-<!-- img credit to https://www.vectorlogo.zone/logos/java/index.html -->
-            <div class="row">
-                <img src="{{ url_for('static', filename='images/c.svg') }}" alt="c">
-                <img src="{{ url_for('static', filename='images/htmlcss.svg') }}" alt="htmlcss">
-            </div>
-<!-- img credit to https://commons.wikimedia.org/wiki/File:C_Programming_Language.svg -->
-<!-- img credit to https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg -->
-        </div>
+    </div>
     </div>
     
 </body>

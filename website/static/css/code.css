@@ -116,3 +116,48 @@ body {
 .img-container img {
     margin: 2px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .tabs {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .text-container {
+        margin: 30px 5%;
+    }
+
+    .img-container {
+        margin-left: 5%;
+    }
+}
+
+/* Media Query for larger screens */
+@media screen and (max-width: 1024px) {
+    .tabs {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+
+    .text-container {
+        margin: 30px 10%;
+    }
+
+    .text-container h1 {
+        font-size: 16px;
+    }
+
+    .img-container {
+        margin-left: 5%;
+    }
+
+    .tabs li:nth-child(2) a {
+        padding: 5px 10px;
+    }
+
+    .code-img {
+        margin-left: -14%;
+    }
+
+}
