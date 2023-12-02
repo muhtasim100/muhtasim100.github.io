@@ -21,7 +21,7 @@ window.onscroll = () => {
         // The classes are styled in css for the animation.
     else {
         animated.classList.remove('show-animate');
-        if (scrollposition < offset ) { 
+        if (scrollposition < offset) { 
             video.classList.remove('dimmed');
         }
     }
