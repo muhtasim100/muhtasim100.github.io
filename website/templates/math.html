@@ -17,65 +17,35 @@
 
     <body>
         <div class="math-content">
-
             <div class="mp4">
-                <video width="1600" height="900" loop autoplay muted>
+                <video class="animate" width="1600" height="810" loop autoplay muted>
                     <source src="../static/videos/maths.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
+                    This browser does not support the video tag.
                 </video>
             </div>
             
 
-            <div class="text-container hidden">
-                <h1>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel dolor tortor. 
-                    Aliquam quis ante ut magna molestie tincidunt suscipit eget eros. 
-                    Proin rhoncus lacus vel mauris dictum tempor. 
-                    Suspendisse sagittis ante ac justo dignissim placerat. Suspendisse at turpis commodo, 
-                    porta neque et, condimentum est. Nullam ultricies iaculis accumsan.
-                    Fusce vestibulum eget dui id venenatis. Nullam dolor nunc, venenatis id ipsum quis, 
-                    aliquet ultrices leo. Suspendisse faucibus eleifend erat non viverra. Nullam sed semper risus. 
-                    Mauris ornare lacinia lacus nec eleifend.
-                </h1> 
+            <section class="text" id="animate-section">
+
+                <h2>
+                    Maths is the universal language of innovation and understanding, 
+                    and LEARNR is here to make your education not just accessible but exceptional.
+                    Our world-class tutors, accessible remotely, are your companions in this journey. 
+                    Delve deep into problem-solving and data analysis as we equip you with the essential tools.
+                </h2>
+
+                <h3> 
+                    <br>
+                    Whether your aim is academic excellence or career advancement, 
+                    our personalized support ensures your success.
+                </h3>
                 <!-- h1 text generated from chatgpt. -->
-            </div>
+            </section>
             
         </div>
-        
+        <script src="../static/js/animation.js"></script>
     </body>
     {% endblock %}
+
 </html>
-{% block scripts %}
-<script>
-    // Get references to the elements
-    const mp4Element = document.querySelector('.mp4');
-    const textContainer = document.querySelector('.text-container');
 
-    // Function to toggle visibility of elements based on scroll position
-    function toggleElementsVisibility() {
-        // Get the current scroll position
-        const scrollPosition = window.scrollY;
-
-        // Define a threshold to trigger the change (adjust this value as needed)
-        const threshold = 70;
-
-        if (scrollPosition > threshold) {
-            // Hide the .mp4 element
-            mp4Element.style.display = 'none';
-            // Show the .text-container
-            textContainer.classList.remove('hidden');
-        } else {
-            // Show the .mp4 element
-            mp4Element.style.display = 'block';
-            // Hide the .text-container
-            textContainer.classList.add('hidden');
-        }
-    }
-
-    // Add an event listener to the window's scroll event
-    window.addEventListener('scroll', toggleElementsVisibility);
-
-    // Call the function initially to set the initial state based on scroll position
-    toggleElementsVisibility();
-</script>
-{% endblock %}

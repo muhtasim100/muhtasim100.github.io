@@ -80,11 +80,6 @@ body {
 
 
 @media screen and (max-width: 768px) {
-    .tabs {
-        font-size: 20px;
-        margin-top: 20px;
-    }
-
     .text-container {
         margin: 30px 5%;
     }
@@ -96,11 +91,6 @@ body {
 
 /* Media Query for larger screens */
 @media screen and (max-width: 1024px) {
-    .tabs {
-        font-size: 15px;
-        margin-top: 30px;
-    }
-
     .text-container {
         margin: 30px 10%;
     }
@@ -111,10 +101,6 @@ body {
 
     .img-container {
         margin-left: 5%;
-    }
-
-    .tabs li:nth-child(2) a {
-        padding: 5px 10px;
     }
 
     .code-img {
