@@ -68,7 +68,7 @@ video {
 
 .text h1 {
     transform: translateX(-200%);
-    transition: transform 1.4s ease-in-out;
+    transition: transform 1.5s ease-in-out;
     opacity: 0;
 }
 
@@ -77,27 +77,13 @@ video {
     opacity: 1;
 }
 
-
 .text h2 {
     transform: translateX(-200%);
-    transition: transform 1.5s ease-in-out;
+    transition: transform 1.6s ease-in-out;
     opacity: 0;
 }
 
 .text.show-animate h2 {
-    transform: translateX(0);
-    opacity: 1;
-}
-
-
-.text h3 {
-    transform: translateX(-200%);
-    transition: transform 1.7s ease-in-out;
-    opacity: 0;
-    background: #1D3557;
-}
-
-.text.show-animate h3 {
     transform: translateX(0);
     opacity: 1;
 }
@@ -107,3 +93,19 @@ video {
     transition: opacity 1s ease;
 }
 
+.images {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.images img {
+    transform: translateX(-300%);
+    transition: transform 1.7s ease-in-out;
+    opacity: 0;
+}
+
+.show-animate .images img {
+    transform: translateX(0);
+    opacity: 1;
+}
