@@ -4,12 +4,12 @@
 window.onscroll = () => {
     let animated = document.querySelector('#animate-section');
     let video = document.querySelector('.mp4 video'); 
-    let scrollposition = window.scrollY;
+    let scrollPosition = window.scrollY;
     // Position of the scroll on the Y axis of the window.
     let offset = animated.offsetTop;
     // Position of the top of 'animated' container from top of webpage.
 
-    if (scrollposition >= offset - window.innerHeight) {
+    if (scrollPosition >= offset - window.innerHeight) {
         // Checking if the user has scrolled down (scrollposition) to the top of the container (offset) of the animated item 
         // relative to the height of the browser window (innerHeight).
         animated.classList.add('show-animate');
@@ -21,7 +21,7 @@ window.onscroll = () => {
         // The classes are styled in css for the animation.
     else {
         animated.classList.remove('show-animate');
-        if (scrollposition < offset) { 
+        if (scrollPosition < offset) { 
             video.classList.remove('dimmed');
         }
     }

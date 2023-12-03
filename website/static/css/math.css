@@ -68,7 +68,7 @@ video {
 
 .text h1 {
     transform: translateX(-200%);
-    transition: transform 1.5s ease-in-out;
+    transition: transform 1.2s ease-in-out;
     opacity: 0;
 }
 
@@ -79,7 +79,7 @@ video {
 
 .text h2 {
     transform: translateX(-200%);
-    transition: transform 1.6s ease-in-out;
+    transition: transform 1.3s ease-in-out;
     opacity: 0;
 }
 
@@ -101,7 +101,7 @@ video {
 
 .images img {
     transform: translateX(-300%);
-    transition: transform 1.7s ease-in-out;
+    transition: transform 1.4s ease-in-out;
     opacity: 0;
 }
 

@@ -37,19 +37,19 @@ Markus Spiske</a> on
 Unsplash</a>-->
              </div>
 
-             <div class="lower-container">
+            <div class="lower-container">
                 <div class="img-container">
-                    <img src="{{ url_for('static', filename='images/pybrder.svg') }}" alt="py">
-                    <img src="{{ url_for('static', filename='images/jbrder.svg') }}" alt="java">
+                    <img src="{{ url_for('static', filename='images/pybrder.svg') }}" id="py" alt="py">
+                    <img src="{{ url_for('static', filename='images/jbrder.svg') }}" id="java" alt="java">
     <!-- img credit to https://www.python.org/community/logos/ -->
     <!-- img credit to https://www.vectorlogo.zone/logos/java/index.html -->
-                    <img src="{{ url_for('static', filename='images/cbrdr.svg') }}" alt="c">
-                    <img src="{{ url_for('static', filename='images/csshtmlb.svg') }}" alt="htmlcss">
+                    <img src="{{ url_for('static', filename='images/cbrdr.svg') }}" id="c" alt="c">
+                    <img src="{{ url_for('static', filename='images/csshtmlb.svg') }}" id="htmlcss" alt="htmlcss">
     <!-- img credit to https://commons.wikimedia.org/wiki/File:C_Programming_Language.svg -->
     <!-- img credit to https://commons.wikimedia.org/wiki/File:CSS3_and_HTML5_logos_and_wordmarks.svg -->
                 </div>
                 <div class="lower-text">
-                    <h1>
+                    <h1 id="text-placeholder">
                         LEARNR, established in 2023, seamlessly integrates computer science and math education. 
                         Our expert-led courses cover programming languages and advanced mathematics, 
                         fostering a dynamic learning journey. Tailored paths address individual strengths and career goals, 
@@ -60,8 +60,7 @@ Unsplash</a>-->
                     </h1>
                 </div>
             </div>
-
-    {% endblock %}
-        
+            <script src="../static/js/text.js"></script>
     </body>
+    {% endblock %}
 </html>
