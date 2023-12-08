@@ -1,0 +1,47 @@
+
+/* Free to use font face by Natanael Gama downloaded from https://fonts.google.com/specimen/Fira+Code */
+@font-face {
+    font-family: 'Fira-Regular';
+    src: url('../fonts/Fira_Code/FiraCode-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #A8DADC;
+    height: 100vh;
+    margin: 0%;
+}
+
+.about-container {
+    max-width: 500px;
+    padding: 2%;
+    text-align: center; 
+    margin: 0 auto;
+}
+
+.about-container h1 {
+    font-family: 'Fira-Regular';
+    font-size: 23px;
+    text-align: center;
+    color: #1D3557;
+}
+
+.stdnt-container img {
+    width: 410px; 
+    height: auto;
+}
+
+.stdnt-container {
+    width: 100%;
+    text-align: center; 
+    padding: 2%;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 10vw;
+    margin-top: 1.5vh;
+}
