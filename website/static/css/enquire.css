@@ -22,9 +22,16 @@ body {
 
 .about-content h1, h2  {
     font-family: 'Fira-Regular';
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     color: #1D3557;
+}
+
+.about-content h2 a {
+    color: #1D3557;
+    text-decoration: underline;
+    color: red;
+    cursor: pointer;
 }
 
 .left-column, .right-column {

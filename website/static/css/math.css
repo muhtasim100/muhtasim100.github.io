@@ -40,10 +40,18 @@ body {
     max-width: 1000px;
 }
 
-.text h1, h2, h3 {
+.text h1, h2 {
     font-size: 23px;
     text-align: center;
     color: #A8DADC;
+}
+
+.text h1, h2 {
+    font-size: 18px;
+}
+
+.text h2 {
+    font-size: 30px;
 }
 
 .math-content {
@@ -94,15 +102,17 @@ video {
 }
 
 .images {
-    margin-top: 10%;
+    margin-top: 6%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .images img {
-    transform: translateX(-300%);
+    transform: translateX(-400%);
     transition: transform 1.4s ease-in-out;
     opacity: 0;
+    width: 92%;
+    height: auto;
 }
 
 .show-animate .images img {
