@@ -58,6 +58,10 @@ body {
     gap: 0.5vw;
 }
 
+.img-container img {
+    cursor: pointer;
+}
+
 .lower-text {
     width: 35vw;
 }
@@ -73,11 +77,12 @@ body {
     font-size: 19px;
     text-align: center;
     color: #A8DADC;
+    margin: 7%;
 }
 
-.lower-container h2 {
-    font-family: 'Fira-Regular';
-    font-size: 23px;
-    text-align: center;
-    color: white;
-}
+.youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    cursor: pointer;
+  }
+  
